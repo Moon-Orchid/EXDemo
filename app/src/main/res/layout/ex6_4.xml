@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ex6_4_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个列表视图ListView的实例"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ex6_4_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayAdapter"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/ex6_4_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleAdapter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/ex6_4_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleCursorAdapter"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/ex6_4_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayAdapter只能显示展示一行文字"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ex6_4_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleAdapter: 可以定义各种各样的布局"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleCursorAdapter: SimpleAdapter对数据库的简单结合，可以方便把数据库的内容以列表的形式展示出来。"
+        android:textSize="18sp" />
+
+</LinearLayout>

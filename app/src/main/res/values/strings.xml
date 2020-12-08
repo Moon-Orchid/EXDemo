@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EXDemo</string>
+    <string name="text1">自制计算器</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="lt"><![CDATA[<--]]></string>
+    <string name="jia">+</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_">-</string>
+    <string name="zuokuohao">（</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="yooukuyohao">）</string>
+    <string name="xinghao">*</string>
+    <string name="_0">0</string>
+    <string name="dian">.</string>
+    <string name="denghao">=</string>
+    <string name="chuhao">/</string>
+    <string name="text">表格布局</string>
+    <string name="activity">调用第二个Activity</string>
+    <string name="a">Python编程 从入门到实践 </string>
+    <string name="b">The Lost World (失落的世界)</string>
+    <string name="c">编程小白的第一本 Python 入门书</string>
+    <string name="d">读懂一本书：樊登读书法</string>
+    <string name="e">黄帝内经</string>
+    <string name="f">论持久战</string>
+    <string name="g">码农增刊·码农好爸爸</string>
+    <string name="h">史记</string>
+    <string name="i">王阳明全集</string>
+    <string name="j">写给所有人的编程思维</string>
+</resources>

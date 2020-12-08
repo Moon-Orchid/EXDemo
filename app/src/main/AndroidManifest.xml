@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mo.exdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ex.Ex3_2"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex3_3"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex3_4"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex3_5"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex3_6"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex4_1"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex4_2"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex4_2_2"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex4_3"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex4_4"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex4_3_2"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_1"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_2"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_3"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_4"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_5"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_6"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex5_7"
+            android:launchMode="singleTask" />
+
+
+        <activity
+            android:name=".ex.Ex6_1"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex6_2"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex6_3"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex6_4_ListView.Ex6_4"
+            android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex6_4_ListView.arrayAdapter"
+                android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex6_4_ListView.simpleAdapter"
+                android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex6_4_ListView.simpleCursorAdapter"
+                android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex6_5"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex6_6"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex6_7Tab.Ex6_7"
+            android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex6_7Tab.tabActivity"
+                android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex6_7Tab.tabXml"
+                android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex6_8"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex7_1"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ex.Ex7_2"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex7_3"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex7_4"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex7_5"
+            android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex7_5_SecondActivity"
+                android:launchMode="singleTask" />
+        <activity
+            android:name=".ex.Ex9_3"
+            android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex9_3_DbHelper"
+                android:launchMode="singleTask" />
+            <activity
+                android:name=".ex.Ex9_3_AddPeopleActivity"
+                android:launchMode="singleTask" />
+    </application>
+
+    <!--权限-->
+    <!--读写通讯录权限-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!--加入手机震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个对话框实例"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ex7_3_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示普通对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示带按钮的对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示输入对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示列表对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示单选按钮对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示复选框对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示日期时间对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示进度条对话框" />
+
+    <Button
+        android:id="@+id/ex7_3_btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示自定义对话框" />
+
+    <TextView
+        android:id="@+id/ex7_3_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+</LinearLayout>

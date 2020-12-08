@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ex7_2_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个上下文菜单ContextMenu的实例"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ex7_2_editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

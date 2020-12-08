@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个SimpleCursorAdapter的实例"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/simpleCursorAdapterList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#555555"
+        android:dividerHeight="5px" />
+</LinearLayout>
